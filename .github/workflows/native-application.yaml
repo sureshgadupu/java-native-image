@@ -1,5 +1,5 @@
-name: Java GraalVM Native Image builds
-on: [push, pull_request]
+name: Java GraalVM Native Image build
+on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     name: Java Native Application on ${{ matrix.os }}
